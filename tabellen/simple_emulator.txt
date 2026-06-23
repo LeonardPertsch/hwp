@@ -1,0 +1,13 @@
+Adresse | HEX | Binär     | Schalter (A7..A0 / D7..D0) | Mnemonik      | Kommentar            
+--------+-----+-----------+----------------------------+---------------+----------------------
+0x00    | C3  | 1100 0011 | A: 0000 0000  D: 1100 0011 | JMP           | Opcode               
+0x01    | 02  | 0000 0010 | A: 0000 0001  D: 0000 0010 | JMP → 0x02    | Operand (Zieladresse)
+0x02    | 31  | 0011 0001 | A: 0000 0010  D: 0011 0001 | LXI SP,n      | Opcode               
+0x03    | 00  | 0000 0000 | A: 0000 0011  D: 0000 0000 | LXI SP → 0x00 | Operand (Konstante)  
+0x04    | 3E  | 0011 1110 | A: 0000 0100  D: 0011 1110 | MVI A,n       | Opcode               
+0x05    | 76  | 0111 0110 | A: 0000 0101  D: 0111 0110 | MVI A → 0x76  | Operand (Konstante)  
+0x06    | F5  | 1111 0101 | A: 0000 0110  D: 1111 0101 | PUSH A        | Opcode               
+0x07    | C3  | 1100 0011 | A: 0000 0111  D: 1100 0011 | JMP           | Opcode               
+0x08    | 06  | 0000 0110 | A: 0000 1000  D: 0000 0110 | JMP → 0x06    | Operand (Zieladresse)
+
+Gesamt: 9 Bytes Programm (ohne Trailing-NOPs), davon 5 Befehle
