@@ -30,7 +30,7 @@ except ImportError:
 # ---------------------------------------------------------------------------
 # Einstellungen
 # ---------------------------------------------------------------------------
-DEFAULT_CELLS = 45 * 15   # 45 Zeilen x 15 Spalten (wie hwp_3_table.py)
+DEFAULT_CELLS = 50 * 4   # 45 Zeilen x 15 Spalten (wie hwp_3_table.py)
 STEP_DELAY    = 0.004     # Pause zwischen Feldern (Sekunden) -- ganz schnell
 KEY_DELAY     = 0.002     # Pause zwischen einzelnen Tastendruecken
 COUNTDOWN     = 6
