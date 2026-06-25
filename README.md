@@ -4,6 +4,12 @@ Eine Sammlung kleiner Python-Skripte, die ein 8085-/OPAL-Programm **automatisch 
 
 > **Wichtig:** Die Skripte steuern deine echte Tastatur. Damit das funktioniert, muss dein Betriebssystem dem Python-Programm erlauben, Tastendrücke zu senden. Genau hier hakt es meistens bei anderen – siehe [Für dein OS freischalten](#für-dein-os-freischalten).
 
+## Demo
+
+![Auto-Typer in Aktion](ezgif-85f6aa29aac39de2.gif)
+
+Der Typer füllt die OPAL-Tabelle Feld für Feld – während du nichts machst.
+
 ---
 
 ## Projektstruktur
