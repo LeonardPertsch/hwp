@@ -8,7 +8,7 @@ Eine Sammlung kleiner Python-Skripte, die ein 8085-/OPAL-Programm **automatisch 
 
 ![Auto-Typer in Aktion](ezgif-85f6aa29aac39de2.gif)
 
-Der Typer füllt die OPAL-Tabelle Feld für Feld – während du nichts machst.
+Der Typer füllt die OPAL-Tabelle Feld für Feld
 
 ---
 
